@@ -17,13 +17,14 @@ time, mark, audio, video {
 	font-size: 16px;
 	font: inherit;
 	vertical-align: baseline;
+    font-family: 'Alice', serif;
 }
 
 body {
     background-color: #BAA887;
 }
 
-header {
+#heading * {
     font-family: 'Cinzel Decorative', cursive;
 }
 
@@ -35,18 +36,10 @@ header {
 }
 
 header h1 {
-    font-size: 4rem;
+    font-size: 8vw;
     display: inline-block;
-    margin-top: 3rem;
     z-index: 1;
     color: whitesmoke;
-}
-
-header h3 {
-    font-size: 2rem;
-    display: inline-block;
-    margin-top: 18.7rem;
-    margin-left: 30%;
 }
 
 header img {
@@ -55,7 +48,7 @@ header img {
 }
 
 .caps {
-    font-size: 7rem;
+    font-size: 10vw;
 }
 
 .text-box {
@@ -65,37 +58,29 @@ header img {
 
 #tavern-logo {
     width: 100%;
-    height: 30rem;
+    height: 45vw;
     margin: 0;
     object-fit: cover;
     position: relative;
 }
 
-#mission-section {
-    font-family: 'Alice', serif;
-}
-
 .mission-head {
-    font-size: 3rem;
+    font-size: 6.5vw;
     text-align: center;
-    margin: 2rem auto;
+    margin: 5vw auto;
 }
 
 .mission-text {
-    font-size: 2rem;
-    width: 60%;
+    font-size: 3.5vw;
+    width: 75%;
     text-align: center;
     margin: 0 auto;
 }
 
-#packages-section {
-    font-family: 'Alice', serif;
-}
-
 .packages-head {
-    font-size: 3rem;
+    font-size: 7vw;
     text-align: center;
-    margin: 2rem auto;
+    margin: 5vw auto;
 }
 
 .packages-container{
@@ -103,78 +88,76 @@ header img {
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 2rem;
+    margin-top: 7.5vw;
 }
 
 .package {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    justify-content: stretch;
 }
 
 .package h2 {
-    font-size: 2rem;
+    font-size: 3.5vw;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 4vw;
 }
 
+.package a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.package img {
+    width: 100%;
+    height: 28vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 .package:hover img {
     box-shadow: 5px 5px 5px black;
 }
 
 .package:hover h2 {
-    font-size: 2.5rem;
-}
-
-#solo {
-    width: 100%;
-    height: 15rem;
-    border-radius: 50%;
-}
-
-#sm-group {
-    width: 100%;
-    height: 15rem;
-    border-radius: 50%;
-}
-
-#lg-group {
-    width: 100%;
-    height: 15rem;
-    border-radius: 50%;
+    font-size: 4vw;
 }
 
 .packages-info {
-    margin-top: 5rem;
+    margin-top: 7.5vw;
     text-align: center;
 }
 
 .packages-info h2 {
-    font-size: 2rem;
-    margin-top: 5rem;
+    font-size: 4.5vw;
+    margin-top: 7.5vw;
 }
 
 .info-package p {
-    width: 75%;
+    width: 80%;
     text-align: center;
-    margin: 2rem auto;
-    font-size: 1.5rem;
+    margin: 6vw auto;
+    font-size: 3vw;
 }
 
 .team-head {
-    font-size: 3rem;
+    font-size: 7vw;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 5vw;
 }
 
 .team-container {
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 7vw;
+    gap: 2.5vw;
 }
 
 .team-member {
@@ -182,24 +165,53 @@ header img {
     flex-direction: column;
     align-items: center;
     width: 30%;
-    justify-content: space-around;
-    gap: 1rem;
+    justify-content: stretch;
+    gap: 2vw;
 }
 
 .team-member h2 {
-    font-size: 2rem;
+    font-size: 3.5vh;
+    text-align: center;
 }
 
 .team-member p {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5vh;
+    text-align: center;
 }
 
+.team-picture {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+}
 .team-picture img {
-    width: 25rem;
-    height: 25rem;
+    width: 100%;
+    height: 30vw;
     object-fit: cover;
 }
+
+.gl-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+.team-guildlead {
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+.team-guildlead img {
+    width: 65%;
+    height: 35vh;
+    object-fit: cover;
+}
+
 footer {
     
 }
