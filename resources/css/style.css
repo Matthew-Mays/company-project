@@ -41,7 +41,7 @@ body {
 }
 
 header h1 {
-    font-size: 6vw;
+    font-size: 6rem;
     display: inline-block;
     z-index: 1;
     color: whitesmoke;
@@ -53,7 +53,7 @@ header img {
 }
 
 .caps {
-    font-size: 8vw;
+    font-size: 8rem;
 }
 
 .text-box {
@@ -63,7 +63,7 @@ header img {
 
 #tavern-logo {
     width: 100%;
-    height: 30vw;
+    height: 30rem;
     margin: 0;
     object-fit: cover;
     position: relative;
@@ -74,14 +74,14 @@ header img {
 }
 
 .mission-head {
-    font-size: 5.5vw;
+    font-size: 5.5rem;
     text-align: center;
     margin-bottom: 5vw;
     padding-top: 5vw;
 }
 
 .mission-text {
-    font-size: 2.5vw;
+    font-size: 2rem;
     width: 75%;
     text-align: center;
     margin: 0 auto;
@@ -93,7 +93,7 @@ header img {
 }
 
 .packages-head {
-    font-size: 5.5vw;
+    font-size: 5.5rem;
     text-align: center;
     margin: auto;
 }
@@ -110,12 +110,13 @@ header img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25vw;
+    width: 25rem;
+    height: 33rem;
     justify-content: stretch;
 }
 
 .package h2 {
-    font-size: 3.5vw;
+    font-size: 3.5rem;
     text-align: center;
     font-weight: bold;
     margin-bottom: 4vw;
@@ -130,9 +131,10 @@ header img {
 
 .package img {
     width: 100%;
-    height: 28vw;
+    height: 25rem;
     object-fit: cover;
     border-radius: 50%;
+    
 }
 
 .package:hover img {
@@ -140,7 +142,7 @@ header img {
 }
 
 .package:hover h2 {
-    font-size: 4vw;
+    font-size: 4rem;
 }
 
 .packages-info {
@@ -149,7 +151,7 @@ header img {
 }
 
 .packages-info h2 {
-    font-size: 3.5vw;
+    font-size: 3.5rem;
     margin-top: 7.5vw;
 }
 
@@ -157,22 +159,24 @@ header img {
     width: 80%;
     text-align: center;
     margin: 6vw auto 0 auto;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
 }
 
 #solo-info {
-    scroll-margin-top: 5vw;
+    scroll-margin-top: 8vh;
 }
 
 #smgroup-info {
-    scroll-margin-top: 5vw;
+    scroll-margin-top: 6.5vh;
 }
+
+
 
 #team-section {
     background: linear-gradient(0deg,#ECDCC5, #BAA887);
 }
 .team-head {
-    font-size: 5.5vw;
+    font-size: 5.5rem;
     text-align: center;
     padding-top: 5vw;
 }
@@ -183,37 +187,37 @@ header img {
     align-items: flex-start;
     justify-content: center;
     margin-top: 7vw;
-    gap: 2.5vw;
+    gap: 1.5rem;
 }
 
 .team-member {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
-    justify-content: stretch;
+    width: 25rem;
+    justify-content: space-between;
     gap: 2vw;
 }
 
 .team-member h2 {
-    font-size: 3vw;
+    font-size: 2.5rem;
     text-align: center;
 }
 
 .team-member p {
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .team-picture {
     width: 100%;
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
 }
 .team-picture img {
-    width: 100%;
-    height: 25vw;
+    width: 25rem;
+    height: 25rem;
     object-fit: cover;
 }
 
@@ -227,23 +231,24 @@ header img {
 }
 
 .team-guildlead {
-    width: 100%;
-    height: 30vw;
+    width: 800px;
+    height: 30rem;
     display: flex;
     justify-content: center;
 }
 .team-guildlead img {
-    width: 75%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 .gl-container h2 {
-    font-size: 3.5vw;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .gl-container p {
-    font-size: 2.5vw;
+    font-size: 2rem;
     width: 75%;
     text-align: center;
     padding-bottom: 2vw;
@@ -255,10 +260,11 @@ header img {
     justify-content: space-between;
     flex-flow: column wrap;
     padding-top: 4vw;
+    padding-bottom: 4vw;
     background-color: #AEABAA;
 }
 .location-head {
-    font-size: 5.5vw;
+    font-size: 5.5rem;
     text-align: center;
 }
 
@@ -268,11 +274,11 @@ header img {
 }
 
 .hours h2 {
-    font-size: 3.5vw;
+    font-size: 3.5rem;
 }
 
 .hours p {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 
 .location-blocks {
@@ -283,13 +289,84 @@ header img {
     width: 75%;
     text-align: center;
     margin-top: 2.5vw;
-    padding-bottom: 2vw;
 }
 
 .location-block h2 {
-    font-size: 3vw;
+    font-size: 3rem;
 }
 
 .location-block p {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 849px) {
+    
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2rem;
+    }
+
+    .team-member {
+        width: 75%;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid black;
+    }
+
+    .team-guildlead {
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .caps {
+        font-size: 5rem;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .packages-container {
+        flex-flow: column;
+    }
+
+    .package {
+        width: 15rem;
+        height: 23rem;
+    }
+    .package img {
+        height: 15rem;
+    }
+    
+    .package h2 {
+        font-size: 2.5rem;
+    }
+
+    .info-package p {
+        font-size: 2rem;
+    }
+
+    .packages-info {
+        margin-top: 1rem;
+    }
+
+    #solo-info h2 {
+        margin-top: 0;
+    }
+
+    .location-blocks {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+    html, body {
+        font-size: 12px;
+    }
 }
